@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Ui</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="m-[0px] p-[0px] bg-black text-white">
+    <header class="text-center p-5" >
+        <p class="text-[150%] font-[ui] font-bold ">Animations & UI Feedback</p>
+        <p class="text-[70%] leading-[5%] mt-[1%] text-gray-300">Hover,Click are impact with the element blow</p>
+    </header>
+
+    <section class="ml-[5%] ">
+        <p class="text-[1.5rem] font-[ui] font-bold">Built-in Animation</p>
+        <div class="flex flex-cols"> <div class="text-center mt-[2%] ml-[2%] w-[20%] rounded-[1rem] flex flex-col h-[10rem] bg-gray-500">
+             <div class="w-[50px] h-[50px] animate-spin ml-[40%] mt-[5%] mb-[2%] rounded-[50%] border-4 border-indigo-200 border-t-indigo-500 border-4 border-indigo-200 border-r-indigo-500"></div>
+            <p class="text-[1.4rem] font-[ui]">Animate-spin</p>
+            <p class="text-gray-400">Loading spinner</p>
+        </div>
+
+        <div class="text-center mt-[2%] ml-[2%] w-[20%] rounded-[1rem] flex flex-col h-[10rem] bg-gray-500">
+            <div class="w-[30px] h-[30px]  ml-[45%] mt-[5%] mb-[2%] rounded-[50%] bg-yellow-300 animate-ping"></div>
+            <p class="text-[1.4rem] font-[ui]">Animate-ping</p>
+            <p class="text-gray-400">Notifiactios</p>
+        </div>
+       <div class="text-center mt-[2%] ml-[2%] w-[20%] rounded-[1rem] flex flex-col h-[10rem] bg-gray-500">
+             <div class="w-[50px] h-[50px]  ml-[40%] mt-[5%] mb-[2%] bg-purple-700 rounded-[.5rem] animate-pulse "></div>
+            <p class="text-[1.4rem] font-[ui]">Animate-pulse</p>
+            <p class="text-gray-400">Skeleton loader</p>
+        </div>
+
+        <div class="text-center mt-[2%] ml-[2%] w-[20%] rounded-[1rem] flex flex-col h-[10rem] bg-gray-500">
+             <div class="w-[50px] h-[50px]  ml-[40%] mt-[5%] mb-[2%] bg-orange-500 rounded-[50%] animate-bounce"></div>
+            <p class="text-[1.4rem] font-[ui]">Animate-bounce</p>
+            <p class="text-gray-400">Scroll indigater</p>
+        </div>
+
+      
+    </div>
+       
+    </section>
+
+
+     <section class="ml-[5%] mt-[2%] ">
+        <p class="text-[1.5rem] font-[ui] font-bold">Button Animation</p>
+        <div class="flex flex-cols"> 
+            <div class="p-3 w-[10%] text-center mt-4 bg-orange-500 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:scale-110 cursor-pointer">Scale effect</div>
+            <div class="p-3 w-[15%]text-center ml-4 mt-4 bg-red-500 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:scale-110 shadow-gray-300 cursor-pointer hover:shadow-md">Scale effect + Shadow</div>
+            <div class="p-3 w-[10%] text-center ml-4 mt-4 bg-green-700 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:bg-green-400 cursor-pointer">color effect</div>
+            <div class="p-3 w-[10%] text-center ml-4 mt-4 bg-orange-500 rounded-[.5rem] transition delay-150 duration-500 ease-in-out hover:rotate-360 cursor-pointer">Roatte effect</div>
+            <div class="p-3 w-[10%] text-center ml-4 mt-4 bg-orange-500 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:-translate-y-5 cursor-pointer">lift effect</div>
+            <div class="p-3 w-[10%] text-center ml-4 mt-4 bg-yellow-500 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-yellow-300 cursor-pointer hover:-translate-y-3">Commiend</div>
+
+
+      
+    </div>
+       
+    </section>
+
+
+     <section class="ml-[5%] mt-[2%] ">
+        <p class="text-[1.5rem] font-[ui] font-bold">Card Animation</p>
+        <div class="flex flex-cols gap-[2%] mt-[2%]"> 
+            <div class="w-[30%] h-[10rem] rounded-[.5rem] p-5 bg-gray-500 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-5 shadow-blue-500  hover:shadow-xl">
+                <div class="w-[50px] h-[50px] bg-blue-400 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 rounded-[.5rem]" ></div>
+                <p class="font-[ui] text-150 mt-[2%]">Lift & Shadow</p>
+                <p  class=" mt-[2%] text-120 text-gray-300">hover:-translate-y-5 hover:shadow-xl </p>
+            </div>
+
+             <div class="w-[30%] h-[10rem] rounded-[.5rem] p-5 bg-gray-500 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:rotate-5 cursor-pointer">
+                <div class="w-[50px] h-[50px] bg-orange-400 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:scale-110 hover:rotate-5" ></div>
+                <p class="font-[ui] text-150 mt-[2%]">Scale & Rotate</p>
+                <p  class=" mt-[2%] text-120 text-gray-300">hover:scale-110 hover:rotate-5</p>
+            </div>
+
+             <div class="w-[30%] h-[10rem] rounded-[.5rem] p-5 bg-gray-500 cursor-pointer transition delay-150 duration-300 ease-in-out hover:border-purple-500 hover:border-2 shadow-purple-300 hover:shadow-xl">
+                <div class="w-[50px] h-[50px] bg-purple-500 rounded-[.5rem] transition delay-150 duration-300 ease-in-out hover:border-purple-500 hover:border-2 shadow-purple-300" ></div>
+                <p class="font-[ui] text-150 mt-[2%]">Border Relve</p>
+                <p  class=" mt-[2%] text-120 text-gray-300">Roshan</p>
+            </div>
+            
+      
+    </div>
+       
+    </section>
+
+
+
+         <section class="ml-[5%] mt-[2%] ">
+        <p class="text-[1.5rem] font-[ui] font-bold">Notifiactio Badges</p>
+        <div class="flex flex-cols gap-[2%] mt-[2%]"> 
+            <img class="bg-gray-200 w-20 rounded-[1rem] ml-[5%]" src="asstes/mail.svg" alt="mail">
+            <img class="bg-gray-200 w-20 rounded-[1rem] ml-[1%]" src="asstes/chatbubble.svg" alt="chatbubble">
+            <img class="bg-gray-200 w-20 rounded-[1rem] ml-[1%]" src="asstes/send.svg" alt="send">
+            <div class="absolute w-6 h-6 bg-red-400 rounded-[50%]  left-64 top-211 animation-duration-10  animate-ping text-center">5</div>
+            <div class="absolute w-6 h-6 bg-green-400 rounded-[50%]  top-211 text-center left-97 animate-pulse">3</div>
+            <div class="absolute w-6 h-6 bg-blue-400 rounded-[50%] text-center animate-bounce  top-211 left-130">2</div>
+            
+      
+    </div>
+       
+    </section>
+
+    <section class="ml-[5%] mt-[2%]">
+        <p class="text-[1.5rem] font-[ui] font-bold">Loading State</p>
+        <div class="flex flex-cols"> <div class=" mt-[2%] ml-[2%] w-[25%] p-5 rounded-[1rem] flex flex-col h-[12rem] bg-gray-500">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] inline-block " ></div>
+             <div class=" animate-pulse w-[80%] h-3 bg-gray-400 rounded-[.5rem] mt-4 inline-block"></div>
+             <div class=" animate-pulse w-[100%] h-4 bg-gray-400 rounded-[.5rem] mt-2 inline-block"></div>
+             <div class=" animate-pulse w-[70%] h-2 bg-gray-400 rounded-[.5rem] mt-2 inline-block"></div>
+             <div class=" animate-pulse w-[60%] h-3 bg-gray-400 rounded-[.5rem] mt-2 inline-block"></div>
+             <p class="block mt-2 text-gray-200">Skeleton loader</p>
+
+        </div>
+
+        <div class=" mt-[2%] ml-[2%] w-[25%] rounded-[1rem] flex flex-col h-[12rem] p-5 bg-gray-500">
+            <div class="w-[50%] h-[30%] rounded-[.5rem] flex gap-8 p-2 bg-blue-500">
+            <div class="w-[30px] h-[30px] animate-spin rounded-[50%] border-4 border-white border-t-indigo-500 border-4 border-indigo-200 border-r-indigo-500"></div>
+                <p class="inline-block mt-1">Loading...</p>
+            </div>
+            <p class="mt-5 text-gray-200">Button with spinner</p>
+        </div>
+       <div class="text-center mt-[2%] ml-[2%] w-[25%] rounded-[1rem] flex flex-col h-[12rem] p-5 bg-gray-500">
+        <div class="flex justify-center gap-2">
+            <div class=" w-6 h-6 bg-purple-600 animate-bounce  rounded-[50%]  r"></div>
+            <div class=" w-6 h-6 bg-purple-600 animate-bounce   rounded-[50%]"></div>
+            <div class=" w-6 h-6 bg-purple-600 animate-bounce  rounded-[50%] "></div>
+        </div>
+        <p class="mt-5">Bounceing Dots</p>
+        
+            
+        </div>
+      
+    </div>
+       
+    </section>
+</body>
+</html>
