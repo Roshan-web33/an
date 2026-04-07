@@ -5,3 +5,5 @@ Name= Roshan
 Task no. = 24
 <br>
 this project help to understandin the animation projects
+
+deploy link npx plugins add vercel/vercel-plugin
